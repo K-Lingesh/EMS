@@ -15,30 +15,11 @@ A Django-based Employee Management System to manage employee records efficiently
 
 ## 🚀 Setup Instructions
 
+1.Clone the repository
 ```bash
-# 1️⃣ Clone the repository
 git clone <https://github.com/K-Lingesh/EMS-Employee_Management_System.git>
-cd EMS-Employee_Management_System-main
-
-# 2️⃣ Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# 3️⃣ Install dependencies
-pip install django
-
-# 4️⃣ Run migrations
-python manage.py migrate
-
-# 5️⃣ Create superuser (for admin access)
-python manage.py createsuperuser
-
-# 6️⃣ Start the development server
-python manage.py runserver
-
-# 7️⃣ Open in your browser
-http://127.0.0.1:8000/
 ```
+
 ## 📷 Screenshots
 ### 🏠 Home Page
 ![Home Page](Images/homepage.png)

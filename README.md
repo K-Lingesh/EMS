@@ -13,7 +13,7 @@ A Django-based Employee Management System to manage employee records efficiently
 - Python 3.x
 - Django (compatible version)
 
-##📷 Screenshots
+## 📷 Screenshots
 ### 🏠 Home Page
 ![Home Page](Images/homepage.png)
 

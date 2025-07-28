@@ -13,45 +13,16 @@ A Django-based Employee Management System to manage employee records efficiently
 - Python 3.x
 - Django (compatible version)
 
-## 🚀 Setup Instructions
+##📷 Screenshots
+### 🏠 Home Page
+![Home Page](Images/homepage.png)
 
-```bash
-# 1️⃣ Clone the repository
-git clone <your-repo-url>
-cd EMS-Employee_Management_System-main
+### ➕ Add Employee Page
+![Add Employee](Images/addpage.png)
 
-# 2️⃣ Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+### 📋 View Employees Page
+![View Employees](Images/viewpage.png)
 
-# 3️⃣ Install dependencies
-pip install django
+### ✏️ Edit Employee Page
+![Edit Employee](Images/editpage.png)
 
-# 4️⃣ Run migrations
-python manage.py migrate
-
-# 5️⃣ Create superuser (for admin access)
-python manage.py createsuperuser
-
-# 6️⃣ Start the development server
-python manage.py runserver
-
-# 7️⃣ Open in your browser
-http://127.0.0.1:8000/
-```
-
-## 📂 Project Structure
-
-```
-EMS-Employee_Management_System-main/
-├── Employee_Management_System/  # Project settings
-├── EmployeeHub/                 # Employee management app
-├── db.sqlite3                   # SQLite database
-├── manage.py                    # Django management script
-├── .gitignore                   # Git ignore rules
-```
-
-## 🛠️ Usage
-- Log in to the Django admin panel at `/admin/`.
-- Add, update, or delete employee data.
-- Extend forms, models, or views as needed.

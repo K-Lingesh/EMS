@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1><center>Edit employee details</center></h1>
+<br>
+<center><table>
+    <thead>
+        <tr>
+            <th>Employee id</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>DOB</th>
+            <th>Gender</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Address</th>
+            <th>Hiredate</th>
+            <th>designation</th>
+            <th>Salary</th>
+            <th>Status</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for employee in all_employees %}
+
+        <tr>
+            <td>{{employee.employee_id}}</td>
+            <td>{{employee.first_name}}</td>
+            <td>{{employee.last_name}}</td>
+            <td>{{employee.date_of_birth}}</td>
+            <td>{{employee.gender}}</td>
+            <td>{{employee.email}}</td>
+            <td>{{employee.phone}}</td>
+            <td>{{employee.address}}</td>
+            <td>{{employee.hire_date}}</td>
+            <td>{{employee.designation}}</td>
+            <td>{{employee.salary}}</td>
+            <td>{{employee.status}}</td>
+            <td>
+                <a href="{% url 'employee_upd' employee.employee_id %}">
+                    <button id="Update_btn">Update</button>
+                </a>
+            </td>
+            <td>
+               <a href="{% url 'employee_del' employee.employee_id %}">
+                <button id="Delete_btn">Delete</button>
+               </a>
+            </td>
+        </tr>
+
+        {% endfor %}
+    </tbody>
+</table></center>
+
+{% endblock %}

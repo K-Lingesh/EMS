@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<style>
+    /* General Page Styles */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0077b6; /* Deep blue */
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      background: #fff;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      color: #0077b6;
+    }
+
+    footer {
+      background-color: #023e8a; /* Darker blue */
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+
+
+    <h1><center>Employee Management System</center></h1>
+
+
+  <div class="container">
+    <!-- About Section -->
+    <div class="section">
+      <h2>About</h2>
+      <p>Our Employee Management System helps you manage employee records, attendance, payroll, and performance efficiently. It’s designed to simplify HR tasks for organizations of any size.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section">
+      <h2>Contact</h2>
+      <p>If you have any questions, please reach out:</p>
+      <p>Email: <a href="mailto:support@example.com">support@example.com</a></p>
+      <p>Phone: +1 123 456 7890</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Employee Management System. All rights reserved.</p>
+  </footer>
+
+{% endblock %}

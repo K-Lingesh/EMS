@@ -19,7 +19,7 @@ A Django-based Employee Management System to manage employee records efficiently
 
 ### ➕ Add Employee Page
 ![Add Employee](Images/addpage1.png)
-!(Images/addpage2.png)
+![](Images/addpage2.png)
 
 ### 📋 View Employees Page
 ![View Employees](Images/viewpage.png)

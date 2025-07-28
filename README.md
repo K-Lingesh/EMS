@@ -12,12 +12,13 @@ A Django-based Employee Management System to manage employee records efficiently
 ## ⚙️ Requirements
 - Python 3.x
 - Django (compatible version)
+- Bootstrap v5
 
 ## 🚀 Setup Instructions
 
 1️⃣ Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/K-Lingesh/EMS-Employee_Management_System.git>
 cd EMS-Employee_Management_System-main
 ```
 
@@ -53,6 +54,10 @@ http://127.0.0.1:8000/
 ```
 
 ## 📷 Screenshots
+
+### 🔑 Admin Panel Page
+![Admin Panel](Images/adminpage.png)
+
 ### 🏠 Home Page
 ![Home Page](Images/homepage.png)
 
